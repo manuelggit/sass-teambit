@@ -10,6 +10,8 @@ $font-size-medio: 1.2em;
 $font-size-mediopiccolo: 0.8em;
 $font-size-piccolo: 0.6em;
 
+$margin-top-undermain: 50px;
+
 @mixin margin {
     width: 70%;
     margin: auto;
@@ -55,6 +57,21 @@ $font-size-piccolo: 0.6em;
   align-items: center;
 }
 
+@mixin display-flex-column-sx {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin display-flex-column-dx{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 @mixin titoli-sezioni {
   font-size: 1.3em;
   font-weight: bold;
@@ -92,5 +109,55 @@ $font-size-piccolo: 0.6em;
     @include display-flex-center;
     width: 40%;
     height: auto;
+  }
+}
+
+@mixin img-schermo {
+  width: 450px;
+  height: auto;
+}
+
+@mixin img-postschermo {
+  width: 140px;
+  height: auto;
+}
+
+@mixin text-undermain-sx {
+   width: 40%;
+   padding-left: 30px;
+   @include display-flex-column-sx;
+   h3 {
+     padding: 20px 0;
+   }
+   h5 {
+     padding: 15px 0;
+   }
+   span {
+     padding: 20px 0;
+     color: $second-color-font;
+     font-size: $font-size-mediopiccolo;
+   }
+   img {
+     @include img-postschermo;
+   }
+}
+
+@mixin text-undermain-dx{
+  width: 40%;
+  padding-right: 30px;
+  @include display-flex-column-dx;
+  h3 {
+   padding: 20px 0;
+  }
+  h5 {
+   padding: 15px 0;
+  }
+  span {
+   padding: 20px 0;
+   color: $second-color-font;
+   font-size: $font-size-mediopiccolo;
+  }
+  img {
+   @include img-postschermo;
   }
 }

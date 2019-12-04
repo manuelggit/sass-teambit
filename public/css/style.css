@@ -266,3 +266,103 @@ main h3 {
   padding: 50px;
 }
 
+#undermain {
+  width: 90%;
+}
+
+#undermain .dispari-undermain {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#undermain .dispari-undermain .img-schermo {
+  width: 450px;
+  height: auto;
+}
+
+#undermain .dispari-undermain .text-undermain {
+  width: 40%;
+  padding-left: 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+#undermain .dispari-undermain .text-undermain h3 {
+  padding: 20px 0;
+}
+
+#undermain .dispari-undermain .text-undermain h5 {
+  padding: 15px 0;
+}
+
+#undermain .dispari-undermain .text-undermain span {
+  padding: 20px 0;
+  color: #30488f;
+  font-size: 0.8em;
+}
+
+#undermain .dispari-undermain .text-undermain img {
+  width: 140px;
+  height: auto;
+}
+
+#undermain .pari-undermain {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#undermain .pari-undermain .img-schermo {
+  width: 450px;
+  height: auto;
+}
+
+#undermain .pari-undermain .text-undermain {
+  width: 40%;
+  padding-right: 30px;
+  text-align: right;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+          align-items: flex-end;
+}
+
+#undermain .pari-undermain .text-undermain h3 {
+  padding: 20px 0;
+}
+
+#undermain .pari-undermain .text-undermain h5 {
+  padding: 15px 0;
+}
+
+#undermain .pari-undermain .text-undermain span {
+  padding: 20px 0;
+  color: #30488f;
+  font-size: 0.8em;
+}
+
+#undermain .pari-undermain .text-undermain img {
+  width: 140px;
+  height: auto;
+}
+

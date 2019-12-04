@@ -1,0 +1,30 @@
+#undermain {
+  width: 90%;
+
+  .dispari-undermain {
+    margin-top: $margin-top-undermain;
+    @include display-flex-center;
+
+    .img-schermo {
+      @include img-schermo;
+    }
+
+    .text-undermain {
+      @include text-undermain-sx;
+    }
+  }
+
+  .pari-undermain {
+    margin-top: $margin-top-undermain;
+    @include display-flex-center;
+
+    .img-schermo {
+      @include img-schermo;
+    }
+
+    .text-undermain {
+      @include text-undermain-dx;
+    }
+  }
+
+}
