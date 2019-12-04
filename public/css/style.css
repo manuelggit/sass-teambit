@@ -21,19 +21,25 @@ header {
 }
 
 #header #sx-header {
-  width: 40%;
+  padding-top: 50px;
+  width: 48%;
   height: 100%;
 }
 
 #header #sx-header h1 {
-  font-size: 2em;
+  padding: 20px 0;
+  color: #58402c;
+  font-size: 1.9em;
 }
 
 #header #sx-header h4 {
+  padding: 10px 0;
   font-size: 1.2em;
+  color: #58402c;
 }
 
 #header #sx-header .registrazione {
+  font-size: 0.6em;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -42,6 +48,29 @@ header {
           align-items: center;
   width: 80%;
   height: 10%;
+  padding: 5px 0;
+}
+
+#header #sx-header .registrazione .tasto {
+  width: 120px;
+  height: 30px;
+  background: #30488f;
+  color: white;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+#header #sx-header .registrazione .tasto img {
+  width: 16px;
+  height: 16px;
+}
+
+#header #sx-header #mail {
+  color: #58402c;
 }
 
 #header #dx-header {
@@ -95,7 +124,7 @@ nav #nav {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 50%;
   height: 100%;
   list-style-type: none;

@@ -7,21 +7,45 @@ header {
   @include display-flex-between;
 
   #sx-header {
-    width: 40%;
+    padding-top: 50px;
+    width: 48%;
     height: 100%;
 
     h1 {
+      padding: 20px 0;
+      color: $main-color-font;
       font-size: $font-size-grande;
     }
 
     h4 {
+      padding: 10px 0;
       font-size: $font-size-medio;
+      color: $main-color-font;
     }
 
     .registrazione {
+      font-size: $font-size-piccolo;
       @include display-flex-between;
       width: 80%;
       height: 10%;
+      padding: 5px 0;
+
+      .tasto {
+        width: 120px;
+        height: 30px;
+        background: $second-color-font;
+        color: white;
+        @include display-flex-around;
+        border-radius: 5px;
+
+        img {
+          @include dimensioni-logo;
+        }
+      }
+    }
+
+    #mail {
+      color: $main-color-font;
     }
   }
 
