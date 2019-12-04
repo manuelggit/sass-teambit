@@ -7,4 +7,90 @@ $second-color-font: #30488f;
 // font-size
 $font-size-grande: 2em;
 $font-size-medio: 1.2em;
+$font-size-mediopiccolo: 0.8em;
 $font-size-piccolo: 0.5em;
+
+@mixin margin {
+    width: 70%;
+    margin: auto;
+}
+
+@mixin margin-section {
+  width: 50%;
+  margin: auto;
+}
+
+@mixin dimensioni-logo {
+  width: 16px;
+  height: 16px;
+}
+
+@mixin dimensioni-tre-img {
+  width: 50%;
+  height: auto;
+}
+
+@mixin display-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin display-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin display-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin display-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@mixin titoli-sezioni {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@mixin tre-img {
+  width: 30%;
+  height: 200px;
+  @include display-flex-column;
+  text-align: center;
+}
+
+@mixin section-tre-img {
+  .tre-img {
+    @include tre-img;
+  }
+  img {
+    @include dimensioni-tre-img;
+  }
+  h5 {
+    font-size: $font-size-mediopiccolo;
+  }
+}
+
+@mixin section-una-img {
+  @include display-flex-center;
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+
+  img {
+    @include display-flex-center;
+    width: 40%;
+    height: auto;
+  }
+}

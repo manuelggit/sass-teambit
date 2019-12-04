@@ -4,21 +4,3 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
-
-@mixin display-flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@mixin display-flex-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-@mixin display-flex-around {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}

@@ -1,0 +1,46 @@
+main {
+  background-color: $main-background;
+  color: $main-color-font;
+
+  #first-section {
+    border-bottom: 1px solid $main-color-font;
+    padding-bottom: 70px;
+  }
+
+  section {
+    @include margin-section;
+
+    h3 {
+      @include titoli-sezioni;
+    }
+
+    .section-tre-img {
+      @include display-flex-between;
+      @include section-tre-img;
+
+      .tre-img-stretta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 35%;
+        height: 100%;
+
+        img {
+          width: 40px;
+        }
+      }
+    }
+
+    .section-una-img {
+      @include section-una-img;
+    }
+  }
+
+  h3 {
+    @include display-flex-center;
+    padding: 50px;
+  }
+
+}

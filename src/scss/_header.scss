@@ -1,5 +1,5 @@
 header {
-  width: 100%;
+  @include margin;
   height: 90vh;
 }
 
@@ -11,12 +11,26 @@ header {
     height: 100%;
 
     h1 {
-      font-size: $font-size-grande; 
+      font-size: $font-size-grande;
+    }
+
+    h4 {
+      font-size: $font-size-medio;
+    }
+
+    .registrazione {
+      @include display-flex-between;
+      width: 80%;
+      height: 10%;
     }
   }
 
   #dx-header {
-    width: 60%;
+    width: 55%;
     height: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 }
