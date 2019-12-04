@@ -1,3 +1,10 @@
-h1 {
-  color: red;
+@import "variables";
+@import "common";
+@import "header";
+@import "nav";
+
+#container {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
 }

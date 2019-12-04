@@ -1,4 +1,117 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+}
+
+#header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#header #sx-header {
+  width: 40%;
+  height: 100%;
+}
+
+#header #sx-header h1 {
+  font-size: 2em;
+}
+
+#header #dx-header {
+  width: 60%;
+  height: 100%;
+}
+
+nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #58402c;
+  color: #58402c;
+}
+
+nav #logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 10%;
+  height: 100%;
+}
+
+nav #logo span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+nav #nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  font-size: 0.8em;
+  width: 50%;
+  height: 100%;
+  list-style-type: none;
+}
+
+nav #nav li {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  width: 18%;
+  height: 30%;
+}
+
+nav #nav li img {
+  width: 20%;
+  height: auto;
+}
+
+nav #nav #signup-nav {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  border: 1px solid #30488f;
+  color: #30488f;
+  width: 22%;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+#container {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
 }
 
