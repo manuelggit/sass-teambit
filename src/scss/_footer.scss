@@ -1,0 +1,41 @@
+footer {
+  padding-top: 100px;
+  @include display-flex-between-top;
+  width: 80%;
+  margin: auto;
+  color: $main-color-font;
+
+  #sx-footer {
+    width: 33%;
+
+    h5 {
+      font-size: $font-size-mediopiccolo;
+
+      a {
+        color: $second-color-font;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #dx-footer {
+    @include display-flex-between-top;
+    width: 63%;
+
+    ul {
+      width: 20%;
+      list-style-type: none;
+
+      .foot-title {
+        font-size: $font-size-mediopiccolo;
+        padding-bottom: 15px;
+      }
+
+      li {
+        font-size: $font-size-piccolo;
+        padding-bottom: 10px;
+        padding-right: 6px;
+      }
+    }
+  }
+}

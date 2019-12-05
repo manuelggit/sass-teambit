@@ -39,7 +39,7 @@ header {
 }
 
 #header #sx-header .registrazione {
-  font-size: 0.6em;
+  font-size: 0.5em;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -124,7 +124,7 @@ nav #nav {
           justify-content: space-between;
   -webkit-box-align: center;
           align-items: center;
-  font-size: 0.6em;
+  font-size: 0.5em;
   width: 50%;
   height: 100%;
   list-style-type: none;
@@ -364,5 +364,57 @@ main h3 {
 #undermain .pari-undermain .text-undermain img {
   width: 140px;
   height: auto;
+}
+
+footer {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  width: 80%;
+  margin: auto;
+  color: #58402c;
+}
+
+footer #sx-footer {
+  width: 33%;
+}
+
+footer #sx-footer h5 {
+  font-size: 0.8em;
+}
+
+footer #sx-footer h5 a {
+  color: #30488f;
+  text-decoration: none;
+}
+
+footer #dx-footer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+          align-items: flex-start;
+  width: 63%;
+}
+
+footer #dx-footer ul {
+  width: 20%;
+  list-style-type: none;
+}
+
+footer #dx-footer ul .foot-title {
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+
+footer #dx-footer ul li {
+  font-size: 0.5em;
+  padding-bottom: 10px;
+  padding-right: 6px;
 }
 

@@ -8,7 +8,7 @@ $second-color-font: #30488f;
 $font-size-grande: 1.9em;
 $font-size-medio: 1.2em;
 $font-size-mediopiccolo: 0.8em;
-$font-size-piccolo: 0.6em;
+$font-size-piccolo: 0.5em;
 
 $margin-top-undermain: 50px;
 
@@ -42,6 +42,12 @@ $margin-top-undermain: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@mixin display-flex-between-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 @mixin display-flex-around {
